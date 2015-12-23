@@ -1,0 +1,23 @@
+{
+  "description": "test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "union": "0.3.5",
+    "flatiron": "0.4.3",
+    "plates" : "0.4.6",
+    "node-static":"0.6.0",
+    "nano":"3.3.0"
+  },
+  "devDependencies": {
+    "api-easy": "0.3.2",
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "name": "todo",
+  "author": "namgil",
+  "homepage": ""
+}
